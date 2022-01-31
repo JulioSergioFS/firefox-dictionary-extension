@@ -1,0 +1,39 @@
+body {
+  width: 300px;
+  padding: 15px;
+  background-color: #3a3d42;
+  color: #e2eaee;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #e2eaee;
+  padding: 7px 10px;
+  color: #e2eaee;
+  border-radius: 5px;
+}
+
+.input-text {
+  background-color: #67757a;
+  color: #e2eaee;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.search {
+  background-color: #515a5f;
+  border: none;
+  padding: 5px 10px;
+  color: #e2eaee;
+  border-radius: 5px;
+}
+
+.select-type {
+  background-color: #61676d;
+  color: #e2eaee;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}

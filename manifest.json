@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "English Dictionary",
+  "version": "1.0",
+
+  "description": "English dictionary linked with slangs and formal words definitions.",
+  "icons": {
+    "48": "icons/temporary-icon.png"
+  },
+
+  "permissions": ["activeTab"],
+
+  "browser_action": {
+    "default_icon": "icons/temporary-icon.png",
+    "default_title": "English Dictionary",
+    "default_popup": "popup/index.html"
+  }
+}
