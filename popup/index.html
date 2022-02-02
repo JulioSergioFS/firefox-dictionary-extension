@@ -9,8 +9,15 @@
   <body>
     <div>
       <form style="margin-bottom: 20px">
-        <input type="text" id="word" name="word" value="" class="input-text" />
-        <input type="submit" value="Search" class="search" />
+        <input
+          type="text"
+          id="word"
+          name="word"
+          value=""
+          class="input-text"
+          autofocus
+        />
+        <input type="submit" value="Search" id="search" />
       </form>
 
       <div>
@@ -19,9 +26,11 @@
           <option value="formal">Formal</option>
           <option value="slang">Slang</option>
         </select>
+        <p id="testeid">teste</p>
       </div>
     </div>
 
     <script src="index.js"></script>
+    <script src="../content_scripts/dictionary.js"></script>
   </body>
 </html>
